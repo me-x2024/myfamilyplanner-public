@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutzerklärung – myFamilyPlanner</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8f8f8;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f07048;
+      margin-bottom: 0.25rem;
+    }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+    .updated {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 2rem 0 0.5rem;
+      color: #222;
+    }
+    p { margin-bottom: 0.75rem; color: #333; }
+    ul { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+    li { margin-bottom: 0.4rem; color: #333; }
+    .highlight {
+      background: #fff8f5;
+      border-left: 3px solid #f07048;
+      padding: 0.75rem 1rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+    }
+    a { color: #f07048; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">myFamilyPlanner</div>
+    <h1>Datenschutzerklärung</h1>
+    <p class="updated">Stand: Mai 2026</p>
+
+    <div class="highlight">
+      myFamilyPlanner speichert deine Familiendaten verschlüsselt und gibt sie nicht an Dritte weiter.
+    </div>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      Diese App und der zugehörige KI-Assistent werden privat betrieben.
+      Bei Fragen zum Datenschutz erreichst du uns unter:
+      <a href="mailto:privacy@myfamilyplanner.app">privacy@myfamilyplanner.app</a>
+    </p>
+
+    <h2>2. Welche Daten werden gespeichert?</h2>
+    <p>myFamilyPlanner speichert ausschließlich die Daten, die du selbst einträgst:</p>
+    <ul>
+      <li>Einkaufsliste (Artikel, Kategorien)</li>
+      <li>Wochenplan (Termine, Datum, Uhrzeit, Familienmitglied)</li>
+      <li>Rezepte (Name, Zutaten, Zubereitung)</li>
+      <li>Familienmitglieder (Namen)</li>
+      <li>Raum-Code und Passwort (verschlüsselt als Hash gespeichert)</li>
+    </ul>
+    <p>Es werden keine Standortdaten, Gerätedaten oder persönliche Profile erstellt.</p>
+
+    <h2>3. Wo werden die Daten gespeichert?</h2>
+    <p>
+      Die Daten werden in <strong>Supabase</strong> (EU-Region) gespeichert.
+      Supabase ist DSGVO-konform. Alle Verbindungen laufen verschlüsselt über HTTPS.
+    </p>
+    <p>
+      Auf deinem Gerät werden Daten zusätzlich im lokalen Gerätespeicher (localStorage)
+      zwischengespeichert für schnellen Zugriff ohne Internetverbindung.
+    </p>
+
+    <h2>4. KI-Assistent (ChatGPT-Integration)</h2>
+    <p>
+      Der optionale FamilyPlanner-GPT basiert auf ChatGPT von OpenAI.
+      Wenn du den KI-Assistenten verwendest, werden deine Sprach- oder Texteingaben
+      an OpenAI übermittelt. Die Verarbeitung durch OpenAI unterliegt
+      <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAIs Datenschutzrichtlinien</a>.
+    </p>
+    <p>
+      Dein <strong>Agent-Token</strong> wird nur im Gesprächsverlauf gespeichert und
+      nicht dauerhaft von OpenAI hinterlegt. Er wird ausschließlich zur Authentifizierung
+      gegenüber der FamilyPlanner-API verwendet.
+    </p>
+
+    <h2>5. Weitergabe an Dritte</h2>
+    <p>
+      Deine Familiendaten werden <strong>nicht</strong> an Dritte verkauft oder weitergegeben.
+      Ausnahme: technisch notwendige Dienstleister (Supabase für Datenspeicherung,
+      OpenAI für die optionale KI-Funktion).
+    </p>
+
+    <h2>6. Löschung deiner Daten</h2>
+    <p>
+      Du kannst deinen Familienraum und alle dazugehörigen Daten jederzeit
+      in der App unter <strong>Einstellungen → Raum löschen</strong> dauerhaft entfernen.
+      Alle Daten werden dann vollständig und unwiderruflich gelöscht.
+    </p>
+
+    <h2>7. Deine Rechte (DSGVO)</h2>
+    <ul>
+      <li>Recht auf Auskunft über gespeicherte Daten</li>
+      <li>Recht auf Berichtigung falscher Daten</li>
+      <li>Recht auf Löschung (siehe oben)</li>
+      <li>Recht auf Datenübertragbarkeit</li>
+    </ul>
+    <p>Anfragen bitte an: <a href="mailto:privacy@myfamilyplanner.app">privacy@myfamilyplanner.app</a></p>
+
+    <h2>8. Cookies</h2>
+    <p>
+      Die App verwendet keine Tracking-Cookies. Der lokale Gerätespeicher (localStorage)
+      dient ausschließlich zur Funktionssicherung der App.
+    </p>
+
+    <h2>9. Änderungen dieser Erklärung</h2>
+    <p>
+      Bei wesentlichen Änderungen wird das Datum oben aktualisiert.
+      Die aktuelle Version ist immer unter dieser URL abrufbar.
+    </p>
+
+    <footer>
+      myFamilyPlanner · <a href="mailto:privacy@myfamilyplanner.app">privacy@myfamilyplanner.app</a>
+    </footer>
+  </div>
+</body>
+</html>
