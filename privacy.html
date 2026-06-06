@@ -68,7 +68,7 @@
   <div class="container">
     <div class="logo">myFamilyPlanner</div>
     <h1>Datenschutzerklärung</h1>
-    <p class="updated">Stand: Mai 2026</p>
+    <p class="updated">Stand: Juni 2026</p>
 
     <div class="highlight">
       myFamilyPlanner speichert deine Familiendaten verschlüsselt und gibt sie nicht an Dritte weiter.
@@ -87,49 +87,77 @@
       <li>Einkaufsliste (Artikel, Kategorien)</li>
       <li>Wochenplan (Termine, Datum, Uhrzeit, Familienmitglied)</li>
       <li>Rezepte (Name, Zutaten, Zubereitung)</li>
+      <li>Aufgaben (Titel, Status)</li>
       <li>Familienmitglieder (Namen)</li>
-      <li>Raum-Code und Passwort (verschlüsselt als Hash gespeichert)</li>
+      <li>Raum-Code und Passwort (verschlüsselt als Hash gespeichert – nie im Klartext)</li>
     </ul>
     <p>Es werden keine Standortdaten, Gerätedaten oder persönliche Profile erstellt.</p>
 
-    <h2>3. Wo werden die Daten gespeichert?</h2>
+    <h2>3. Benutzerkonto (GoodBarber)</h2>
     <p>
-      Die Daten werden in <strong>Supabase</strong> (EU-Region) gespeichert.
-      Supabase ist DSGVO-konform. Alle Verbindungen laufen verschlüsselt über HTTPS.
+      Für die Nutzung des <strong>Family Sync</strong> ist ein Benutzerkonto erforderlich.
+      Dieses Konto wird über die App-Plattform <strong>GoodBarber</strong> (SAS GoodBarber,
+      Frankreich) bereitgestellt und verwaltet.
+    </p>
+    <p>Bei der Registrierung speichert GoodBarber:</p>
+    <ul>
+      <li>E-Mail-Adresse</li>
+      <li>Benutzername (Login)</li>
+      <li>Abo-Status (aktive Produkte / access_levels)</li>
+      <li>Erneuerungsdatum des Abonnements</li>
+    </ul>
+    <p>
+      GoodBarber ist DSGVO-konform. Weitere Informationen:
+      <a href="https://www.goodbarber.com/privacy/" target="_blank">goodbarber.com/privacy</a>
+      und <a href="https://www.goodbarber.com/tos/" target="_blank">goodbarber.com/tos</a>.
+    </p>
+
+    <h2>4. In-App-Käufe &amp; Abonnements</h2>
+    <p>
+      Abonnements (Family Sync) werden über den <strong>Apple App Store</strong> bzw.
+      <strong>Google Play Store</strong> abgewickelt. Die Zahlungsabwicklung erfolgt
+      ausschließlich durch Apple oder Google – wir erhalten keine Zahlungsdaten (keine
+      Kreditkarten- oder Bankdaten).
+    </p>
+
+    <h2>5. Wo werden die Daten gespeichert?</h2>
+    <p>
+      Die Sync-Daten (Einkaufsliste, Wochenplan etc.) werden in <strong>Supabase</strong>
+      auf EU-Servern (Frankfurt) gespeichert. Supabase ist DSGVO-konform.
+      Alle Verbindungen laufen verschlüsselt über HTTPS/TLS.
     </p>
     <p>
       Auf deinem Gerät werden Daten zusätzlich im lokalen Gerätespeicher (localStorage)
       zwischengespeichert für schnellen Zugriff ohne Internetverbindung.
     </p>
 
-    <h2>4. KI-Assistent (ChatGPT-Integration)</h2>
-    <p>
-      Der optionale FamilyPlanner-GPT basiert auf ChatGPT von OpenAI.
-      Wenn du den KI-Assistenten verwendest, werden deine Sprach- oder Texteingaben
-      an OpenAI übermittelt. Die Verarbeitung durch OpenAI unterliegt
-      <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAIs Datenschutzrichtlinien</a>.
-    </p>
-    <p>
-      Dein <strong>Agent-Token</strong> wird nur im Gesprächsverlauf gespeichert und
-      nicht dauerhaft von OpenAI hinterlegt. Er wird ausschließlich zur Authentifizierung
-      gegenüber der FamilyPlanner-API verwendet.
-    </p>
-
-    <h2>5. Weitergabe an Dritte</h2>
+    <h2>6. Weitergabe an Dritte</h2>
     <p>
       Deine Familiendaten werden <strong>nicht</strong> an Dritte verkauft oder weitergegeben.
-      Ausnahme: technisch notwendige Dienstleister (Supabase für Datenspeicherung,
-      OpenAI für die optionale KI-Funktion).
+      Technisch notwendige Dienstleister:
+    </p>
+    <ul>
+      <li><strong>Supabase</strong> (USA/EU) – Datenspeicherung der Sync-Daten</li>
+      <li><strong>GoodBarber</strong> (Frankreich) – App-Plattform &amp; Benutzerkonto</li>
+      <li><strong>Apple / Google</strong> – Zahlungsabwicklung für Abonnements</li>
+    </ul>
+
+    <h2>7. Werbung</h2>
+    <p>
+      Die kostenlose Version der App kann Werbeanzeigen enthalten (Google AdMob).
+      Mit einem aktiven Abonnement werden keine Werbeanzeigen angezeigt.
+      AdMob kann anonymisierte Gerätekennungen verwenden. Weitere Informationen:
+      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.
     </p>
 
-    <h2>6. Löschung deiner Daten</h2>
+    <h2>8. Löschung deiner Daten</h2>
     <p>
       Du kannst deinen Familienraum und alle dazugehörigen Daten jederzeit
       in der App unter <strong>Einstellungen → Raum löschen</strong> dauerhaft entfernen.
       Alle Daten werden dann vollständig und unwiderruflich gelöscht.
     </p>
 
-    <h2>7. Deine Rechte (DSGVO)</h2>
+    <h2>9. Deine Rechte (DSGVO)</h2>
     <ul>
       <li>Recht auf Auskunft über gespeicherte Daten</li>
       <li>Recht auf Berichtigung falscher Daten</li>
@@ -138,13 +166,13 @@
     </ul>
     <p>Anfragen bitte an: <a href="mailto:hello@myfamilyplannerapp.com">hello@myfamilyplannerapp.com</a></p>
 
-    <h2>8. Cookies</h2>
+    <h2>10. Cookies</h2>
     <p>
       Die App verwendet keine Tracking-Cookies. Der lokale Gerätespeicher (localStorage)
       dient ausschließlich zur Funktionssicherung der App.
     </p>
 
-    <h2>9. Änderungen dieser Erklärung</h2>
+    <h2>11. Änderungen dieser Erklärung</h2>
     <p>
       Bei wesentlichen Änderungen wird das Datum oben aktualisiert.
       Die aktuelle Version ist immer unter dieser URL abrufbar.
